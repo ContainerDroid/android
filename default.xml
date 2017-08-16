@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk">
+  <project path="build" name="LineageOSPlus/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -284,6 +284,7 @@
   <project path="external/tinyxml2" name="LineageOS/android_external_tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="pdk" remote="aosp" />
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
+  <project path="external/busybox" name="LineageOSPlus/android_external_busybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />

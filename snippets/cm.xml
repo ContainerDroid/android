@@ -13,7 +13,7 @@
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" />
+  <project path="external/openssh" name="LineageOSPlus/android_external_openssh" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
@@ -50,7 +50,7 @@
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  <project path="vendor/cm" name="LineageOSPlus/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
