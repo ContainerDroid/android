@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOSPlus/android_build" groups="pdk">
+  <project path="build" name="LineageOS/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -284,7 +284,7 @@
   <project path="external/tinyxml2" name="LineageOS/android_external_tinyxml2" groups="pdk" />
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="pdk" remote="aosp" />
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
-  <project path="external/busybox" name="LineageOSPlus/android_external_busybox" groups="pdk" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" remote="aosp" />
   <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
@@ -305,7 +305,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOSPlus/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -313,7 +313,7 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="LineageOSPlus/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="ContainerDroid/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -477,7 +477,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="LineageOSPlus/android_system_core" groups="pdk" />
+  <project path="system/core" name="ContainerDroid/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
