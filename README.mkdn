@@ -1,4 +1,4 @@
-LineageOS Plus
+ContainerDroid
 ==============
 
 Overview
@@ -8,23 +8,9 @@ This is an Android distribution intended to be 100% backwards compatible
 with LineageOS. The goal of the project is to attract more embedded
 engineers accustomed to the regular GNU/Linux workflow/tools, which are not
 normally available on Android.
-
-Here is a roadmap of the changes/additions over LineageOS:
-
-* Fix init.d support in LineageOS
-* Add support for user namespaces
-* Add support for overlayfs
-* Out-of-box support for Busybox
-* Out-of-box support for su
-* Merge the Android filesystem hierarchy with traditional UNIX paths
-  (/usr/, /var/, /etc/)
-* Add the NAP (Nice Android Packages) package manager, which uses
-  busybox dpkg as backend
-* Add support for creating and running Docker containers
-* Add support for communication through Binder between Docker containers
-  and the Android host
-* Create glibc command-line programs for interacting with the main
-  Android services from within Docker containers
+The main addition of this project is support for creating and running
+Docker containers, available to applications via an extension to the
+CMSDK API.
 
 Getting Started
 ---------------
@@ -34,7 +20,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS Plus trees, use a command like this:
 
-    repo init -u git://github.com/LineageOSPlus/android.git -b cm-14.1
+    repo init -u git://github.com/ContainerDroid/android.git -b cm-14.1
 
 Then to sync up:
 
@@ -46,7 +32,7 @@ Supported Devices
 -----------------
 
 Current work is done on the Lenovo Yoga Tab 3 Plus (YTX703L), based on
-the msm-3.10 kernel for msm8952_64 offered by Qualcomm.
+the msm-3.10 kernel for msm8976/msm8952_64 offered by Qualcomm.
 From a maintainer's perspective, porting to other devices consists mainly in
 adding support to the kernel for user namespaces and overlayfs, which
 are required by Docker.
